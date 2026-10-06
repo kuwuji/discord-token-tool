@@ -1,0 +1,30 @@
+// src/locales/ru.ts
+import type { Key } from "./en";
+
+export const ru: Record<Key, string> = {
+    chooseLang: "Выбери язык",
+    chooseCheck: "Что хочешь проверить?",
+    botToken: "Токен бота",
+    userToken: "Токен пользователя",
+    askToken: "Введи токен",
+    emptyToken: "Токен не может быть пустым",
+    fetching: "Спрашиваем Discord...",
+    rejected: "Discord отклонил токен",
+    alive: "Токен живой",
+    deadMsg: "Discord говорит нет. Этот токен мёртв, просрочен или никогда не существовал.",
+    retry: "Возьми новый и попробуй ещё раз 🔄",
+    greet: "Поймал тебя, {name}.",
+    username: "Имя пользователя",
+    display: "Отображаемое имя",
+    email: "Email",
+    verified: "Подтверждён",
+    mfa: "2FA",
+    born: "Создан",
+    notSet: "не задано",
+    emailHidden: "скрыт (нет scope email)",
+    yes: "да",
+    no: "нет",
+    unknown: "неизвестно",
+    done: "Токен проверен. Береги себя 🦊",
+    bye: "Пока 👋",
+};

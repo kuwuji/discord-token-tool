@@ -1,0 +1,30 @@
+// src/locales/es.ts
+import type { Key } from "./en";
+
+export const es: Record<Key, string> = {
+    chooseLang: "Elige tu idioma",
+    chooseCheck: "¿Qué quieres comprobar?",
+    botToken: "Token de bot",
+    userToken: "Token de usuario",
+    askToken: "Introduce tu token",
+    emptyToken: "El token no puede estar vacío",
+    fetching: "Preguntando a Discord...",
+    rejected: "Token rechazado por Discord",
+    alive: "El token está vivo",
+    deadMsg: "Discord dice que no. Este token está muerto, caducado o nunca existió.",
+    retry: "Consigue uno nuevo e inténtalo de nuevo 🔄",
+    greet: "Te tengo, {name}.",
+    username: "Usuario",
+    display: "Nombre visible",
+    email: "Email",
+    verified: "Verificado",
+    mfa: "2FA",
+    born: "Nacido el",
+    notSet: "sin definir",
+    emailHidden: "oculto (falta el scope email)",
+    yes: "sí",
+    no: "no",
+    unknown: "desconocido",
+    done: "Token comprobado. Cuídate por ahí 🦊",
+    bye: "Hasta luego 👋",
+};
